@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-cont{
+    font-family: 'Bad Script', cursive;
+    background: linear-gradient(#0f2027,#203a43,#2c5364);
+    min-height: 100vh;
+}
+
+.heading .h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #44A08D;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.inp-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+.text-cont{
+    margin-top: 10px;
+}
+
+.list{
+    background-color: #003f5a;
+    width: 405px;
+    height: 40px;
+    display: flex;
+    box-shadow: 2px 2px 4px #111;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.list:hover{
+    box-shadow: 2px 2px 4px #093637;
+}
+
+.list-box{
+    display: flex;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.my-btn{
+    background-color: #003f5a;
+    border: none;
+    outline: none;
+    color: rgb(12, 122, 141);
+}
+
+.my-btn:hover{
+    background: linear-gradient(#44A08D,  #093637) !important;
+}
